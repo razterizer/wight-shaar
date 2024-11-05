@@ -1,3 +1,14 @@
+# Wight-Shaar
+
+This game is from a final homework assignment and game competition in the course "Advance Computer Graphics" at Chalmers University of Technology in Gothenburg 2006.
+I didn't win unfortunately, both because of good competition but mainly - I think - due to a too physically accurate simulation, rendering it extremely hard to play well.
+
+This is a simple `C++` / `OpenGL` /  `GLUT` game that I know runs on Windows. It might work on Linux/BSD/Unix or whatnot with some minor modifications (if at all) I guess.
+
+The last compiled exe from that time is included and it still works (tested today at the moment of writing; 2024-11-05).
+
+Here's the original README:
+
 Wight-Shaar 1.3.5
 =================
 
