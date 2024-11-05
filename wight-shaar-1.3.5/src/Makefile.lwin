@@ -1,0 +1,69 @@
+# -*-Makefile-*-
+# Makefile for MinGW under Linux for cross-compilation to Windows
+
+#Compiler
+CC = i586-mingw32msvc-gcc
+CXX = i586-mingw32msvc-g++
+
+#Compiler Flags
+CPPFLAGS = -O3 -Wall -pedantic -ffast-math
+
+#Linker
+LD = i586-mingw32msvc-g++
+
+#Linker Flags
+LDFLAGS = -Wall -pedantic
+LDFLAGS += -lglut32 -lglu32 -lopengl32 -luser32 -lgdi32
+
+#Objects
+OBJECTS = geometry.o transform.o texture.o \
+	gbase.o gobject.o gfunc.o gtree.o \
+	state.o ode.o \
+	thruster.o vessel.o ship.o torpedo.o \
+	cd.o timer.o text.o \
+	wight-shaar.o
+
+#Binary
+EXEC = wight-shaar
+
+
+#Linking
+
+$(EXEC): $(OBJECTS)
+	$(LD) -o $@.exe $(OBJECTS) $(LDFLAGS)
+	mv $@.exe ..
+
+#Dependencies
+
+geometry.o:		geometry.h stuff.h
+transform.o:		transform.h geometry.h bb.h
+texture.o:     		texture.h geometry.h hashcmp.h
+gbase.o:		gbase.h geometry.h transform.h \
+			texture.h lists.h
+gobject.o:		gobject.h geometry.h transform.h gbase.h hashcmp.h \
+			stuff.h
+gfunc.o:		gfunc.h geometry.h transform.h gbase.h hashcmp.h \
+			stuff.h
+gtree.o:		gtree.h gbase.h gobject.h ship.h \
+			lists.h tokenizer.h
+state.o:		state.h geometry.h transform.h
+ode.o:			ode.h vessel.h gbase.h gobject.h gfunc.h
+thruster.o:		thruster.h geometry.h transform.h gbase.h stuff.h
+vessel.o:		vessel.h thruster.h state.h gbase.h gobject.h gfunc.h
+ship.o:			ship.h vessel.h thruster.h state.h gbase.h gobject.h \
+			gfunc.h
+torpedo.o:		torpedo.h vessel.h thruster.h state.h gbase.h \
+			gobject.h gfunc.h
+cd.o:			cd.h geometry.h gbase.h bb.h stuff.h
+timer.o:		timer.h
+text.o:			text.h geometry.h texture.h timer.h
+wight-shaar.o:		wight-shaar.h geometry.h transform.h state.h ode.h \
+			thruster.h ship.h torpedo.h cd.h timer.h text.h
+
+
+
+clean:
+	rm -rf $(OBJECTS)
+
+distclean:
+	rm -rf $(OBJECTS) ../$(EXEC).exe

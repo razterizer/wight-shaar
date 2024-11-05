@@ -1,0 +1,16 @@
+ship
+motor_L
+jet_L
+jet_R
+motor_R
+motor_rev
+jet_rev
+nozzle_L
+nozzle_R
+player : ship rev frw
+player rev : motor_rev jet_rev
+player frw : left right
+player frw left : motor_L gimbal
+player frw left gimbal : nozzle_L jet_L
+player frw right : motor_R gimbal
+player frw right gimbal : nozzle_R jet_R

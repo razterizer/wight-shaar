@@ -1,0 +1,16 @@
+#Produced by Art of Illusion 2.2, Wed Apr 26 16:35:56 CEST 2006
+newmtl ship
+Kd 0.12591 0.16577 0.3071
+Ks 0 0 0
+Ka 0 0 .1
+illum 1
+newmtl Default_Texture
+Kd 1 1 1
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+newmtl glow
+Kd 1 0.9728 0.32
+Ks 0 0 0
+Ka 1 1 0.23
+illum 1

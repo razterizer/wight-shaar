@@ -1,0 +1,10 @@
+body
+leg_4
+leg_3
+leg_2
+turret_pipe
+leg_1
+turret
+enemy : body turret_gimb legs
+enemy turret_gimb : turret turret_pipe
+enemy legs : leg_1 leg_2 leg_3 leg_4
