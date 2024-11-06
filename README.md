@@ -8,6 +8,7 @@ https://youtu.be/iHq7FRgFe8c
 ![wight-shaar_4QUgWe2Tjc](https://github.com/user-attachments/assets/f516752b-73ba-44db-bb29-9fabb2872401)
 ![wight-shaar_fmZcPVScrx](https://github.com/user-attachments/assets/c915b18d-0be7-4e75-87ed-27180a26bdae)
 ![wight-shaar_e6W9tp0a0U](https://github.com/user-attachments/assets/4e1132b1-d928-494e-8959-2a5b7b0020f0)
+![image](https://github.com/user-attachments/assets/8661d0ee-123a-491c-980a-c75573b41f8e)
 
 
 This game is from a final homework assignment and game competition in the course "Advanced Computer Graphics" tought by Ulf Assarson at Chalmers University of Technology in Gothenburg 2006.
