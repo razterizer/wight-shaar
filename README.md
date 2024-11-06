@@ -1,5 +1,15 @@
 # Wight-Shaar
 
+https://youtu.be/iHq7FRgFe8c
+
+![wight-shaar_Q4haK2TFIJ](https://github.com/user-attachments/assets/b46ae8d5-3c38-4a6b-be5c-b377dd332ded)
+![wight-shaar_GW7Pjht5oA](https://github.com/user-attachments/assets/d8ea0885-e2c1-4650-bd80-d0be03c211fe)
+![wight-shaar_Xoq1ksgYgt](https://github.com/user-attachments/assets/3661ee04-52f7-47fc-ab4c-eab392e6ecf8)
+![wight-shaar_4QUgWe2Tjc](https://github.com/user-attachments/assets/f516752b-73ba-44db-bb29-9fabb2872401)
+![wight-shaar_fmZcPVScrx](https://github.com/user-attachments/assets/c915b18d-0be7-4e75-87ed-27180a26bdae)
+![wight-shaar_e6W9tp0a0U](https://github.com/user-attachments/assets/4e1132b1-d928-494e-8959-2a5b7b0020f0)
+
+
 This game is from a final homework assignment and game competition in the course "Advanced Computer Graphics" tought by Ulf Assarson at Chalmers University of Technology in Gothenburg 2006.
 I didn't win unfortunately, both because of good competition but mainly - I think - due to a too physically accurate simulation, rendering it extremely hard to play well.
 
