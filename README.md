@@ -1,6 +1,6 @@
 # Wight-Shaar
 
-This game is from a final homework assignment and game competition in the course "Advance Computer Graphics" at Chalmers University of Technology in Gothenburg 2006.
+This game is from a final homework assignment and game competition in the course "Advanced Computer Graphics" tought by Ulf Assarson at Chalmers University of Technology in Gothenburg 2006.
 I didn't win unfortunately, both because of good competition but mainly - I think - due to a too physically accurate simulation, rendering it extremely hard to play well.
 
 This is a simple `C++` / `OpenGL` /  `GLUT` game that I know runs on Windows. It might work on Linux/BSD/Unix or whatnot with some minor modifications (if at all) I guess.
@@ -175,7 +175,7 @@ Enjoy!
 
 5. TROUBLESHOOTING
 ------------------
-Email to scratty@gmail.com if you experience any problems regarding the
+Email to *******@gmail.com if you experience any problems regarding the
 installation or the game itself. Use the flag "-help" for a list of possible
 command line options.
 
